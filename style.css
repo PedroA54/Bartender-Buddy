@@ -1,0 +1,95 @@
+* {
+    margin: 100;
+    padding: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body {
+    background: rgb(72, 37, 13);
+    background-image: url(./assets/bar6.jpg);
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  #topheader {
+    background: #ffffff;
+    opacity: 90%;
+    margin-block-start: 60px;
+    margin-block-end: 45px;
+    padding: 10px 10px;
+  }
+  
+  #main-title {
+    font-size: 45px;
+  }
+  
+  .box {
+    background: #ffffff;
+    opacity: 90%;
+    margin-block-start: 60px;
+    margin-block-end: 35px;
+    padding: 20px 30px;
+    text-align: left;
+  }
+  
+  .favorites {
+    background: #ffffff;
+    opacity: 90%;
+    margin-block-start: 60px;
+    margin-block-end: 45px;
+    padding: 10px 30px;
+    text-align: left;
+  }
+  
+  .cocktail-name {
+    background: #ffffff;
+    opacity: 90%;
+    margin-block-start: 60px;
+    margin-block-end: 45px;
+    padding: 10px 10px;
+  }
+  
+  #form-submit {
+    background-color: rgb(86, 15, 109);
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-block-start: 25px;
+    margin-block-end: 25px;
+  }
+  
+  #favorites {
+    background-color: rgb(86, 15, 109);
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-block-start: 25px;
+    margin-block-end: 25px;
+  }
+  
+  #cocktail-image {
+    max-width: 50%;
+    border: 5px solid #ffffff;
+  }
+  
+  .text-title {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .favoriteItem,
+  .clickable {
+    text-decoration: underline;
+    cursor: pointer;
+  }
